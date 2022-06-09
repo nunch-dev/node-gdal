@@ -3,7 +3,7 @@
 		"../../common.gypi"
 	],
 	"variables": {
-		"endianness": "<!(python -c \"import sys;print(sys.byteorder.upper())\")",
+		"endianness": "<!(python3 -c \"import sys;print(sys.byteorder.upper())\")",
 	},
 	"targets": [
 		{
