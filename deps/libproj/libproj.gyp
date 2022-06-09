@@ -29,9 +29,9 @@
 				"proj/src/rtodms.c",
 				"proj/src/vector1.c",
 				"proj/src/pj_fileapi.c",
-				'<!@(python ../glob-files.py "proj/src/PJ_*.c")',
-				'<!@(python ../glob-files.py "proj/src/proj_*.c")',
-				'<!@(python ../glob-files.py "proj/src/pj_*.c")'
+				'<!@(python3 ../glob-files.py "proj/src/PJ_*.c")',
+				'<!@(python3 ../glob-files.py "proj/src/proj_*.c")',
+				'<!@(python3 ../glob-files.py "proj/src/pj_*.c")'
 			],
 			"include_dirs": [
 				"./proj/src"
